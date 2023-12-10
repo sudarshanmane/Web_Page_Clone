@@ -59,7 +59,7 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 5% 10% 0px 10%;
+  padding: 0% 10% 0px 10%;
   height: 83vh;
 }
 
@@ -103,7 +103,7 @@ nav a {
   padding: 6px 16px;
   border: none;
   border-radius: 3px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 15px;
 }
 
@@ -154,10 +154,13 @@ nav a {
 }
 
 .home-load__box {
+  z-index: 2;
   position: absolute;
   top: 35vh;
   left: 82%;
   width: 130px;
+  background-color: white;
+
   padding: 7px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -167,6 +170,7 @@ nav a {
 }
 
 .home-load_content {
+  color: #ed017f;
   display: flex;
   align-items: center;
   justify-content: space-between;
